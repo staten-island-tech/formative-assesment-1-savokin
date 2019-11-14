@@ -12,7 +12,7 @@ div{
 }
 .suffering{
     text-transform: uppercase;
-    
+    font-family: 'Open Sans Condensed', sans-serif;
     color: white;
     text-size-adjust: 100px;
 }
