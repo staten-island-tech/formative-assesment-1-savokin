@@ -1,5 +1,6 @@
 div{
-    background: linear-gradient(#004092, #020202, transparent), url("media/cr-0.png") no-repeat center;
+    background: linear-gradient(#043472, #6d6464, transparent 50%), url("media/cr-0.png") no-repeat center;
+    filter: invert(100%);
     background-size: cover;
     height: 100vh;
     
@@ -11,6 +12,11 @@ div{
 }
 .suffering{
     text-transform: uppercase;
-    text-decoration-color: aliceblue;
+    
+    color: white;
     text-size-adjust: 100px;
+}
+.k{
+    filter: invert(100%);
+    filter: grayscale(100%);
 }
